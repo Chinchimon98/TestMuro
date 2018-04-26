@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-26-2018, 07:59:18 AM
+    Author     : bryan
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FAFAFA;
+}
+
+#usuario {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.muro {
+    width: 630px;
+    height: 620px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.publicar{
+    width: 600px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background: white;    
+}
+
+.publicar input[type=button]{
+    width: 20%;
+    height: 40px;
+    padding: 7px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0px;
+    float: right;
+    background: #5858FA;
+    border: none;
+}
+
+.publicar textarea{
+	background: #fff;
+	width: 100%;
+	height: 165px;
+	border: 2px solid #eee;
+	resize: none;
+	padding: 10px;
+	font-size: 20px;
+	color: #424242;
+	border-color: #D8D8D8;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+.publicaciones {
+    margin-top: 40px;
+    width: 610px;
+    min-width: 200px;
+    background: #BDBDBD;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.publicacion {
+    margin: 0 0 10px;
+    background: white;
+}
+
+.nombre{
+    margin-left: 9px;
+    font-size: 15px;
+    color: #1C1C1C;
+}
+
+.fecha{
+    margin-left: 9px;
+    font-size: 8px;
+    color: #2E2E2E;    
+    margin-bottom: 9px;
+}
+
+.text{
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 17px;    
+}
